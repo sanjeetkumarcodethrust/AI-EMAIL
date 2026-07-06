@@ -1,9 +1,0 @@
-torch
-transformers
-datasets
-evaluate
-rouge_score
-sacrebleu
-gradio
-accelerate
-peft
