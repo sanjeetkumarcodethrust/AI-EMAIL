@@ -1,0 +1,405 @@
+{
+    "overall_system_score": "62.80%",
+    "per_response_evaluation": [
+        {
+            "incoming_email": "Hi, Thank you for the quick response. Cheers!",
+            "ground_truth": "Happy to help!",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.4848,
+                "rouge_L": 0.0
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hello there, Thanks for the help yesterday! Thanks.",
+            "ground_truth": "Anytime! Have a great day.",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.4915,
+                "rouge_L": 0.0
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Dear team, Have we finished the latest sprint?",
+            "ground_truth": "The AI project is on track. I will send a detailed report shortly.",
+            "generated_reply": "The sprint is completed, and all features are deployed.",
+            "metrics": {
+                "semantic_similarity": 0.1759,
+                "rouge_L": 0.1818
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, Just following up on my previous email. Best,",
+            "ground_truth": "Thanks for following up. I will review it today and get back to you.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.5866,
+                "rouge_L": 0.24
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, Just following up on my previous email. Best,",
+            "ground_truth": "No updates yet, I will let you know as soon as I have more information.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.2974,
+                "rouge_L": 0.1538
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Appreciate your hard work on this. Cheers!",
+            "ground_truth": "Anytime! Have a great day.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.1829,
+                "rouge_L": 0.125
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hello there, The software is crashing on startup. Thanks.",
+            "ground_truth": "I have unlocked your account. Please try logging in again.",
+            "generated_reply": "I have unlocked your account. Please try logging in again.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "My account is locked, can you help? Best,",
+            "ground_truth": "I have unlocked your account. Please try logging in again.",
+            "generated_reply": "I have unlocked your account. Please try logging in again.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hi, What is the current status of the AI project? Thanks.",
+            "ground_truth": "The AI project is on track. I will send a detailed report shortly.",
+            "generated_reply": "The AI project is on track. I will send a detailed report shortly.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Just following up on my previous email.",
+            "ground_truth": "No updates yet, I will let you know as soon as I have more information.",
+            "generated_reply": "Thanks for following up. I will review it today and get back to you.",
+            "metrics": {
+                "semantic_similarity": 0.4197,
+                "rouge_L": 0.2069
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Can we schedule a meeting next week? Cheers!",
+            "ground_truth": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "generated_reply": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hello there, Let's catch up on the project status this Friday.",
+            "ground_truth": "Friday works for me. Looking forward to it.",
+            "generated_reply": "Friday works for me. Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.8364,
+                "rouge_L": 0.4
+            },
+            "rationale": "Acceptable. Captures the general gist but may miss some nuances of the ground truth."
+        },
+        {
+            "incoming_email": "I forgot my password, how do I reset it? Cheers!",
+            "ground_truth": "We are aware of the startup issue and are working on a patch.",
+            "generated_reply": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "metrics": {
+                "semantic_similarity": 0.0766,
+                "rouge_L": 0.1481
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, The software is crashing on startup. Thanks.",
+            "ground_truth": "We are aware of the startup issue and are working on a patch.",
+            "generated_reply": "I have unlocked your account. Please try logging in again.",
+            "metrics": {
+                "semantic_similarity": 0.2433,
+                "rouge_L": 0.0
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Can you send me the Q3 report? Best,",
+            "ground_truth": "I have attached the Q3 report to this email.",
+            "generated_reply": "I have attached the Q3 report to this email.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hello there, Are you available for a quick sync tomorrow? Best,",
+            "ground_truth": "I am available tomorrow at 2 PM. Send an invite.",
+            "generated_reply": "I am available tomorrow at 2 PM. Send an invite.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hi, Thanks for the help yesterday! Thanks.",
+            "ground_truth": "Happy to help!",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.4848,
+                "rouge_L": 0.0
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Any updates on this? Cheers!",
+            "ground_truth": "Thanks for following up. I will review it today and get back to you.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.5866,
+                "rouge_L": 0.24
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, My account is locked, can you help? Cheers!",
+            "ground_truth": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "generated_reply": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hello there, What is the current status of the AI project? Best,",
+            "ground_truth": "The sprint is completed, and all features are deployed.",
+            "generated_reply": "The AI project is on track. I will send a detailed report shortly.",
+            "metrics": {
+                "semantic_similarity": 0.1759,
+                "rouge_L": 0.1818
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, Any updates on this? Thanks.",
+            "ground_truth": "I have reviewed it and left some comments in the document.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hi, Can we schedule a meeting next week?",
+            "ground_truth": "Friday works for me. Looking forward to it.",
+            "generated_reply": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "metrics": {
+                "semantic_similarity": 0.4121,
+                "rouge_L": 0.0909
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hello there, The software is crashing on startup.",
+            "ground_truth": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "generated_reply": "I have unlocked your account. Please try logging in again.",
+            "metrics": {
+                "semantic_similarity": 0.4893,
+                "rouge_L": 0.0833
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hello there, Did you get a chance to review the document?",
+            "ground_truth": "Thanks for following up. I will review it today and get back to you.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.5866,
+                "rouge_L": 0.24
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Dear team, What is the current status of the AI project?",
+            "ground_truth": "The AI project is on track. I will send a detailed report shortly.",
+            "generated_reply": "The AI project is on track. I will send a detailed report shortly.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hello there, Did you get a chance to review the document? Thanks.",
+            "ground_truth": "No updates yet, I will let you know as soon as I have more information.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.2974,
+                "rouge_L": 0.1538
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, Are you available for a quick sync tomorrow? Best,",
+            "ground_truth": "I am available tomorrow at 2 PM. Send an invite.",
+            "generated_reply": "I am available tomorrow at 2 PM. Send an invite.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Dear team, My account is locked, can you help? Cheers!",
+            "ground_truth": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "generated_reply": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Dear team, Are you available for a quick sync tomorrow?",
+            "ground_truth": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "generated_reply": "I am available tomorrow at 2 PM. Send an invite.",
+            "metrics": {
+                "semantic_similarity": 0.4048,
+                "rouge_L": 0.0833
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, Just following up on my previous email. Cheers!",
+            "ground_truth": "No updates yet, I will let you know as soon as I have more information.",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.2645,
+                "rouge_L": 0.1538
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Dear team, Just following up on my previous email. Cheers!",
+            "ground_truth": "Thanks for following up. I will review it today and get back to you.",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 0.3552,
+                "rouge_L": 0.08
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hello there, The software is crashing on startup. Thanks.",
+            "ground_truth": "We are aware of the startup issue and are working on a patch.",
+            "generated_reply": "I have unlocked your account. Please try logging in again.",
+            "metrics": {
+                "semantic_similarity": 0.2433,
+                "rouge_L": 0.0
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Are you available for a quick sync tomorrow? Best,",
+            "ground_truth": "I am available tomorrow at 2 PM. Send an invite.",
+            "generated_reply": "I am available tomorrow at 2 PM. Send an invite.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Dear team, My account is locked, can you help? Cheers!",
+            "ground_truth": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "generated_reply": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Appreciate your hard work on this. Best,",
+            "ground_truth": "You're welcome! Let me know if you need anything else.",
+            "generated_reply": "You're welcome! Let me know if you need anything else.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Dear team, Can we schedule a meeting next week? Best,",
+            "ground_truth": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "generated_reply": "Sure, let's schedule a meeting. Does Tuesday at 10 AM work for you?",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Hello there, What is the current status of the AI project? Cheers!",
+            "ground_truth": "I have attached the Q3 report to this email.",
+            "generated_reply": "The AI project is on track. I will send a detailed report shortly.",
+            "metrics": {
+                "semantic_similarity": 0.2611,
+                "rouge_L": 0.1818
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "Hi, My account is locked, can you help? Cheers!",
+            "ground_truth": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "generated_reply": "You can reset your password using the 'Forgot Password' link on the login page.",
+            "metrics": {
+                "semantic_similarity": 1.0,
+                "rouge_L": 1.0
+            },
+            "rationale": "Excellent. High semantic match and similar wording to the ground truth."
+        },
+        {
+            "incoming_email": "Did you get a chance to review the document?",
+            "ground_truth": "Thanks for following up. I will review it today and get back to you.",
+            "generated_reply": "I have reviewed it and left some comments in the document.",
+            "metrics": {
+                "semantic_similarity": 0.5866,
+                "rouge_L": 0.24
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        },
+        {
+            "incoming_email": "What is the current status of the AI project?",
+            "ground_truth": "The sprint is completed, and all features are deployed.",
+            "generated_reply": "The AI project is on track. I will send a detailed report shortly.",
+            "metrics": {
+                "semantic_similarity": 0.1759,
+                "rouge_L": 0.1818
+            },
+            "rationale": "Poor. The generated response diverges significantly in meaning from the expected reply."
+        }
+    ]
+}

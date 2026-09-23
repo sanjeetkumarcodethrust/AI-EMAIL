@@ -7,3 +7,5 @@ sacrebleu
 gradio
 accelerate
 peft
+sentence-transformers
+nltk
